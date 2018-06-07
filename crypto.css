@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+html,
+body,
+header {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#main {}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(133deg, #fb926b, #fbb86b, #6bc1fb, #fb6c6b);
+    background-size: 800% 800%;
+    -webkit-animation: Gradient 16s ease infinite;
+    -moz-animation: Gradient 16s ease infinite;
+    animation: Gradient 16s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+.table {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.thead {
+    border-bottom: solid white 3px;
+    width: 100%;
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+#coins {
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+tr {
+    border-bottom: solid #ff9300 1px;
+}
