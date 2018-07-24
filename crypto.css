@@ -14,74 +14,27 @@ header {
     overflow-x: hidden;
 }
 
-#main {}
-
 body {
-    position: absolute;
+    background-image: radial-gradient( circle 820px at 9.1% 22.8%, rgba(216, 247, 229, 1) 0%, rgba(249, 238, 238, 1) 74.7%);
+}
+
+.card {
+    border: 2px black solid;
+    margin: .5pc;
+    padding: 1pc;
+    background-image: radial-gradient( circle farthest-corner at 0.7% 1%, rgba(215, 248, 247, 1) 0%, rgba(102, 188, 239, 1) 100.2%);
+}
+
+.coin-name {
+    font-size: 1.6em;
+}
+
+.coin-info {
     height: 100%;
-    width: 100%;
-    background: linear-gradient(133deg, #fb926b, #fbb86b, #6bc1fb, #fb6c6b);
-    background-size: 800% 800%;
-    -webkit-animation: Gradient 16s ease infinite;
-    -moz-animation: Gradient 16s ease infinite;
-    animation: Gradient 16s ease infinite;
+    font-size: 1.15em;
 }
 
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 51% 0%
-    }
-    50% {
-        background-position: 50% 100%
-    }
-    100% {
-        background-position: 51% 0%
-    }
-}
-
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 51% 0%
-    }
-    50% {
-        background-position: 50% 100%
-    }
-    100% {
-        background-position: 51% 0%
-    }
-}
-
-@keyframes Gradient {
-    0% {
-        background-position: 51% 0%
-    }
-    50% {
-        background-position: 50% 100%
-    }
-    100% {
-        background-position: 51% 0%
-    }
-}
-
-.table {
-    width: 50%;
-    margin: 10px auto;
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
-}
-
-.thead {
-    border-bottom: solid white 3px;
-    width: 100%;
-    font-size: 2.0rem;
-    font-weight: 600;
-    color: #000000;
-}
-
-#coins {
-    width: 100%;
-    font-size: 1.6rem;
-}
-
-tr {
-    border-bottom: solid #ff9300 1px;
+.title {
+    font-size: 2em;
+    padding: 1pc;
 }
